@@ -1,0 +1,10 @@
+package com.assignment385.gamesystem.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.assignment385.gamesystem.entity.VideoGame;
+
+@Repository
+public interface VideoGameRepository extends JpaRepository<VideoGame, Long> {
+}
